@@ -791,7 +791,6 @@ ul.portfolio-image li .desc{
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 850px;
 }
 .list-testimonial {
   display: block;
@@ -800,6 +799,7 @@ ul.portfolio-image li .desc{
 .list-testimonial .content-testimonial {
   text-align: center;
   color: #021c22;
+  margin-bottom: 50px; 
 }
 .list-testimonial .content-testimonial .testi {
   font-size: 16px;
@@ -1279,3 +1279,15 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+
+
+
+/*EMAIL*/
+my-email::after{
+  content: attr(data-domain);
+}
+
+my-email::before{
+  content: attr(data-user) "\0040";
+}
