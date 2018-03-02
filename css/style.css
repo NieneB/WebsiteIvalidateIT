@@ -938,28 +938,30 @@ ul.portfolio-image li .desc{
   min-height: 480px;
 }
 .wrap-about .w-content{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  position: relative;
+  padding: 10%;
+
+/*  left: 50%;
+  top: 50%;*/
+  /*transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%); 
+  -ms-transform: translateX(-50%); */
 }
 
 .wrap-about .w-content td{
   font-size: 13px;
   font-weight: 300;
 }
-.wrap-about .w-content td.title{
+.w-content td.title{
   padding-right: 10px;
   font-weight: 500;
 }
-.wrap-about .w-content td.break{
+.w-content td.break{
   padding-right: 15px;
 }
 .wrap-about .w-content tr{
-  height: 35px;
+  /*height: 35px;*/
 }
 .wrap-about .head-about {
   font-size: 13px;
@@ -1207,9 +1209,17 @@ ul.portfolio-image li .desc{
 .footer-bottom{
   width: 100%;
   background: #2f2f2f;
-  padding: 80px 0;
+  padding: 80px ;
   color: #636363;
 }
+.footer-bottom-bottom{
+  width: 100%;
+  background: #2f2f2f;
+  padding: 80px ;
+  color: #636363;
+  float: right;
+}
+
 
 
 /*----------------------------------------- 8) Component --------------------------------------------------*/
