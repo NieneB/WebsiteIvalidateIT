@@ -49,6 +49,10 @@ TABLE OF CONTENTS:
    -moz-osx-font-smoothing: grayscale
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
 
 body,
 html {
@@ -783,7 +787,6 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-color: #ffffff;
   position: relative;
   padding: 0;
   margin: 0;
@@ -916,7 +919,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/frans2.jpg');
+  background: url('../images/frans4.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
